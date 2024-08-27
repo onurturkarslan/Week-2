@@ -1,0 +1,137 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Stili */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigasyon Menüsü */
+nav {
+    background-color: #666;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+
+/* Ana İçerik Alanı */
+main {
+    padding: 20px;
+}
+
+/* Blog Gönderisi Kartları */
+.recent-posts {
+    display: flex; /* Flexbox ile yan yana dizilim */
+    gap: 20px; /* Kartlar arasında boşluk */
+    justify-content: center; /* Kartları yatayda ortalar */
+    align-items: center; /* Kartları dikeyde ortalar */
+    margin: 0 auto; /* Section'ı ortalar */
+    
+}
+
+.recent-posts article {
+    background-color: white;
+    padding: 20px;
+    flex: 1; /* Kartların eşit genişlikte olmasını sağlar */
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recent-posts h3 {
+    margin-top: 15px;
+    text-align: center;
+}
+main h2 {
+    margin-top: 15px;
+}
+
+/* Resim Stilleri */
+.recent-posts img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 15px;
+}
+
+.blog-article {
+    background-color: white;
+    padding: 20px;
+    flex: 1; /* Kartların eşit genişlikte olmasını sağlar */
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-article img {
+    display: block;
+    margin: 0 auto;
+    max-width: 20%;
+    height: 20%;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 15px;
+}
+.blog-article h2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.blog-article p {
+    font-family: 'Georgia', serif; /* Güzel ve okunabilir bir yazı tipi */
+    font-size: 18px; /* Kolay okunabilir bir boyut */
+    line-height: 1.6; /* Satır aralığı, metni rahat okunur yapar */
+    color: #333; /* Gözü yormayan koyu gri renk */
+    margin: 0 0 20px 0; /* Her paragraf arasında boşluk bırakır */
+    padding: 10px 15px; /* Paragrafa biraz iç boşluk ekler */
+    background-color: #f9f9f9; /* Hafif gri arka plan, metni ön plana çıkarır */
+    border-left: 5px solid #e74c3c; /* Sol tarafta ince bir renkli şerit */
+    border-radius: 5px; /* Hafif yuvarlatılmış köşeler */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti */
+    text-align: justify; /* Metni iki yana yasla */
+}
+
+
+/* Footer Stili */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
